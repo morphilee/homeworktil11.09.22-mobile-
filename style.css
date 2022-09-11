@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  float: left;
+}
+.header a {
+  color: rgb(254, 254, 254);
+  padding: 10px;
+  margin: 20px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.home img {
+  width: 100%;
+  padding-top: 5px;
+  padding-right: 0px;
+  height: 500px;
+}
+.container {
+  width: 100%;
+  height: 550px;
+}
+.footerindex {
+  float: left;
+  width: 100%;
+  height: 75px;
+  background-color: black;
+  color: gold;
+  text-align: center;
+  font-size: 20px;
+}
+
+.infohome {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 100px;
+  font-weight: 800;
+  font-style: italic;
+  font-size: x-large;
+}
+
+.infohome2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  padding-top: 260px;
+  font-style: italic;
+  font-size: x-large;
+  margin-left: 180px;
+}
+
+h1 {
+  color: darkgoldenrod;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Btncontact {
+  width: 50px;
+
+  position: fixed;
+  top: 0;
+  left: 5%;
+}
+
+.Btncontact img {
+  width: 100%;
+  border-radius: 10%;
+}
+/********************** our products page ********************/
+
+.box {
+  width: 20%;
+  float: left;
+  padding: 0.5%;
+  margin: 60px;
+  background-color: gold;
+  padding-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 800;
+  border: 5px solid;
+}
+.box img {
+  width: 130%;
+  height: 250px;
+}
+
+/****************** about us*****************************/
+
+.story {
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+  float: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 800;
+  background-color: rgb(211, 211, 211);
+  font-size: 23px;
+  color: rgb(5, 5, 5);
+}
+@media (min-width: 900px) and (max-width: 1100px) {
+  .box {
+    background-color: brown;
+  }
+  .home img {
+    width: 100%;
+    padding-top: 5px;
+    padding-right: 0px;
+    height: 500px;
+  }
+  .infohome {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px;
+    font-weight: 800;
+    font-style: italic;
+    font-size: large;
+  }
+  .infohome2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    padding-top: 270px;
+    font-style: italic;
+    font-size: large;
+    margin-left: 180px;
+  }
+  .container {
+    width: 100%;
+    height: 520px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 899px) {
+  .box {
+    background-color: crimson;
+  }
+  .story {
+    font-size: 18px;
+    background-color: blanchedalmond;
+  }
+  .header a {
+    font-size: 20px;
+    margin: 10px;
+    padding: 0px;
+  }
+  .Btncontact img {
+    width: 60%;
+    border-radius: 10%;
+  }
+  .home img {
+    width: 100%;
+    padding-top: 18px;
+    padding-right: 0px;
+    height: 500px;
+  }
+  .infohome {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px;
+    font-weight: 800;
+    font-style: italic;
+    font-size: medium;
+  }
+  .infohome2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    padding-top: 230px;
+    font-style: italic;
+    font-size: medium;
+    margin-left: 180px;
+  }
+  .container {
+    width: 100%;
+    height: 520px;
+  }
+  .box {
+    width: 30%;
+  }
+  .box img {
+    width: 100%;
+    height: 250px;
+  }
+  .middel {
+    width: 100%;
+    background-color: rgb(24, 2, 2);
+    padding: 0px;
+  }
+
+  h1 {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+  }
+  .picform {
+    padding: 130px 10%;
+    padding-top: 70px;
+    color: rgb(219, 15, 234);
+    font-size: large;
+    font-weight: 900;
+  }
+  .stores.location {
+    padding: 0.2%;
+    padding-top: 30px;
+    margin: 10px;
+    background-color: rgb(198, 36, 155);
+    font-size: 15px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: #999999;
+  }
+  .box {
+    background-color: dodgerblue;
+  }
+  .header a {
+    font-size: 15px;
+    margin: 3px;
+    padding: 0px;
+  }
+  .story {
+    font-size: 12px;
+    background-color: blueviolet;
+  }
+  .Btncontact img {
+    width: 50%;
+    border-radius: 10%;
+  }
+  .home img {
+    width: 100%;
+    padding-top: 22px;
+    padding-right: 0px;
+    height: 400px;
+  }
+  .infohome {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 70px;
+    font-weight: 800;
+    font-style: italic;
+    font-size: medium;
+  }
+  .infohome2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-top: 230px;
+    font-style: italic;
+    font-size: small;
+    margin-left: 180px;
+    font-weight: 800;
+  }
+  .box {
+    width: 60%;
+  }
+  .box img {
+    width: 80%;
+    height: 250px;
+  }
+  h1 {
+    color: rgb(77, 12, 230);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+  }
+  .picform {
+    padding: 130px 10%;
+    padding-top: 70px;
+    color: rgba(0, 66, 209, 0.975);
+    font-size: small; /* ??מדוע לא משתנה הגודל */
+    font-weight: 900;
+  }
+  .home img {
+    width: 100%;
+    padding-top: 18px;
+    padding-right: 0px;
+    height: 500px;
+  }
+  .container {
+    width: 100%;
+    height: 540px;
+  }
+}
+
+.storypic {
+  float: left;
+  width: 60%;
+  background-color: rgb(183, 36, 36);
+  margin: 10px;
+  padding: 0.5%;
+  margin-top: 0px;
+}
+
+.story img {
+  width: 100%;
+  height: 450px;
+  padding: 0%;
+}
+span {
+  color: rgb(193, 97, 2);
+  text-decoration: underline;
+}
+
+/***************** contact us ***************************/
+
+.middel {
+  width: 100%;
+  background-color: rgb(104, 9, 9);
+  text-align: center;
+  padding: 0px;
+}
+
+.betterBtn {
+  color: black;
+  background-color: aqua;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 15%;
+  cursor: pointer;
+  font-weight: 900;
+}
+.betterBtn a {
+  text-decoration: none;
+}
+button:hover {
+  background-color: rgb(151, 20, 20);
+  color: azure;
+}
+.picform {
+  background-image: url("/img/contactus.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding: 130px 10%;
+  padding-top: 70px;
+  /* color: darkgoldenrod;   מדוע שאני מפיעל את הצבע הוא משתלט והמדיה לא פועל עליו?*/
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+.footercontact {
+  background-color: black;
+  width: 100%;
+  height: 75px;
+  background-color: black;
+  color: gold;
+  text-align: center;
+  font-size: 20px;
+}
+.form {
+  margin: 0%;
+  padding: 0%;
+}
+
+/****************** Our Stores  *************************/
+
+.stores .location {
+  float: left;
+  padding: 0.3%;
+  padding-top: 40px;
+  margin: 15px;
+  background-color: rgb(64, 84, 23);
+  font-size: 20px;
+  text-align: center;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3px solid;
+}
+
+.stores .location img {
+  width: 100%;
+  height: 270px;
+}
+
+hr {
+  border-color: brown;
+  border-style: outset;
+}
